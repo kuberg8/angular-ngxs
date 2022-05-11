@@ -1,0 +1,24 @@
+<div class="card">
+  <img [src]="card.avatarUrl" alt="Avatar" style="width: 100%" />
+  <div class="container">
+    <h4>
+      <b>{{ card.name }}</b>
+    </h4>
+    <div>
+      <small>Phone</small>
+      <div class="card__item">{{ card.telephone }}</div>
+    </div>
+    <div>
+      <small>Email</small>
+      <div class="card__item">{{ card.email }}</div>
+    </div>
+    <div>
+      <small>Address</small>
+      <div class="card__item">{{ card.address }}</div>
+    </div>
+    <div>
+      <small>Job</small>
+      <div class="card__item">{{ card.jobTitle }}</div>
+    </div>
+  </div>
+</div>
